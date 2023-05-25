@@ -26,4 +26,4 @@ async function showMessage() {
 
 btn.addEventListener('click', showMessage);
 
-btn.addEventListener("click", showMessage);
+// btn.addEventListener("click", showMessage);
