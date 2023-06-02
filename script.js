@@ -4,7 +4,7 @@ async function showMessage() {
     const delayInput = document.getElementById(`delay`).value;
 
 	if (textInput && delayInput) {
-		const delayInSec = parseInt(textInput);
+		const delayInSec = parseInt(delayInput);
 		const outputDiv = document.getElementById(`output`);
 
 		outputDiv.textContent = 'Waiting...';
